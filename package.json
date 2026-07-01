@@ -1,0 +1,25 @@
+{
+  "name": "cryptocurrency-digital_assets",
+  "version": "1.0.0",
+  "description": "This project registers the official African Leadership University (ALU) logo on a local Ethereum blockchain and tokenises fractional ownership of that asset. `ALUAssetRegistry` is an ERC-721 NFT contract that stores the logo's SHA-256 content hash and registration metadata on-chain. `ALULogoToken` is an ERC-20 contract that represents 1,000,000 ownership shares of the logo, which the university can distribute to stakeholders.",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "node": "hardhat node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.17"
+  }
+}
